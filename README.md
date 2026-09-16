@@ -1,8 +1,6 @@
 # ⛅ SkyNow — Weather App
 
-A clean, responsive weather web application built with **Spring Boot** that provides real-time weather data, forecasts, and smart tips for any city worldwide.
-
-🔗 **Live Demo**: [skynow-lp8f.onrender.com](https://skynow-lp8f.onrender.com)
+A clean, responsive weather web application built with **Spring Boot** that provides real-time weather data, forecasts, and smart tips for any city worldwide
 
 ---
 
