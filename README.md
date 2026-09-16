@@ -49,18 +49,6 @@ App runs at `http://localhost:8080`
 
 ---
 
-## Docker
-
-```bash
-# Build
-docker build -t skynow .
-
-# Run
-docker run -p 8080:8080 skynow
-```
-
----
-
 ## Project Structure
 
 ```
@@ -81,25 +69,3 @@ skyNow-WeatherApp/
 └── render.yaml
 ```
 ---
-
-## Deployment (Render)
-
-This app is deployed on [Render](https://render.com) using Docker.
-
-```yaml
-services:
-  - type: web
-    name: skyNow
-    env: docker
-    plan: free
-```
-
----
-
-## License
-
-MIT License — feel free to use and modify.
-
----
-
-> Built by [kishorenagarajan-git](https://github.com/kishorenagarajan-git)
